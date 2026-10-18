@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Porcelain In Memoriam</title>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<main class="frame">
+  <div class="crest" aria-hidden="true">♱ ♡ ♱</div>
+  <div class="portal" role="img" aria-label="Current time">
+    <div class="in"><span class="cross" aria-hidden="true">✝</span><span class="t" id="clock">--:--</span><span class="ap" id="ap"></span></div>
+  </div>
+  
+  <h1><a class="ttl" href="#home" data-view="home" data-page="Journal">A Doll in Memoriam</a></h1>
+  <p class="sub" style="margin-bottom:1.2rem">“No matter where you are, everyone is always connected.”</p>
+  <p class="intro">(˶ᵔ ᵕ ᵔ˶)</p>
+  <nav class="menu" aria-label="Sections">
+    <a href="#about" data-view="about" data-page="About me">About me</a>
+    <a href="Interests%20favemedia.html" data-page="Interests / Fave Media">Interests / Fave Media</a>
+    <a href="Journal.html" data-page="Journal">Journal</a>
+    
+  </nav>
+
+  <nav class="table" id="home" aria-label="Latest entries">
+    <div class="head"><span>LATEST ENTRIES</span><span>FILED UNDER</span></div>
+    <a class="row" href="#entry-1" data-page="This entry"><span class="d">10.17</span><span class="n">College being mean&nbsp;</span><span class="lead"></span><span class="st">journal</span></a>
+    <a class="row" href="#entry-2" data-page="This entry"><span class="d">10.12</span><span class="n">New&nbsp; art yay!!!!!</span><span class="lead"></span><span class="st">gallery</span></a>
+    <a class="row" href="#entry-3" data-page="This entry"><span class="d">10.05</span><span class="n">The dolls get new clothes</span><span class="lead"></span><span class="st">dress-up</span></a>
+  </nav>
+  <section class="about" id="about" hidden aria-label="About me">
+    <div class="side">
+      <div class="portrait" role="img" aria-label="Portrait"><img src="https://64.media.tumblr.com/6b3003fd8e472dd2949e28446b9d5bcb/a73023b1492d4a43-34/s2048x3072/73f329f74410666afe05a2cdedbe614c3f5d2aff.png" width="200" ></div>
+      <div class="pbtns">
+        <a class="pbtn" href="#socials" data-page="Socials" aria-label="Socials">✉</a>
+        <a class="pbtn" href="#interests" data-page="Interests / Fave Media" aria-label="Interests and fave media">♡</a>
+        <a class="pbtn" href="#home" data-view="home" data-page="Journal" aria-label="Back to the journal">☩</a>
+      </div>
+    </div>
+    <div class="main">
+      <h2>♱ Porcelain Doll ♡</h2>
+      <div class="age">18 yo. 2008</div>
+      <div class="blk"> “Was ist mit mir geschehen?", dachte er. Es war kein Traum.”<cite>Franz Kafka</cite></div>
+      <div class="blk"><span class="chip">bio:</span> Programmer, artist, aspiring game dev and writer.</div>
+      <div class="blk"> “Mine has been a life of much shame.”<cite>Dazai Osamu, No Longer Human</cite></div>
+      <a class="back" href="#home" data-view="home" data-page="Journal">← back to the home page</a>
+    </div>
+    <div class="col">
+      <div class="tile t1"><img src=https://64.media.tumblr.com/4daefe94d44653b3d356f7c3eb21e056/5edbed560c7c141d-5b/s1280x1920/e2d26f7b5d285d79a3a7974514f7124c69e4c3a2.png width=100></div>
+      <div class="tile t2"><b>✧</b></div>
+      <div class="tile t3"><img src=https://64.media.tumblr.com/4daefe94d44653b3d356f7c3eb21e056/5edbed560c7c141d-5b/s1280x1920/e2d26f7b5d285d79a3a7974514f7124c69e4c3a2.png width=100></div>
+    </div>
+  </section>
+  <footer><b>♡</b>made with care<b>♡</b></footer>
+</main>
+<div id="toast" role="status"></div>
+<div id="ring"></div>
+<svg id="cur" viewBox="0 0 26 34" aria-hidden="true"><path d="M13 1v32M4 10h18" stroke="#08050a" stroke-width="6" stroke-linecap="round"/><path d="M13 1v32M4 10h18" stroke="#d8ceb6" stroke-width="3" stroke-linecap="round"/><path d="M13 21c-5-3-5-7-2-7 1.500 0 2 1 2 1s.5-1 2-1c3 0 3 4-2 7z" fill="#e9a3bd" transform="translate(0 -2)"/></svg>
+</body>
+</html>
